@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.introducao-bg{
+    background-image: url('../img/beautiful-girl-gym.jpg');
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.introducao{
+   padding: 50px;
+}
+.introducao h1{
+    font-size: 5rem;
+    color: #ffffff;
+    font-family: 'Black Ops One', cursive;
+    text-shadow: 0 0 18px rgb(0 0 0);
+    line-height: 1;
+}
+.introducao p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.introducao a{
+   color: #af7f68;
+   text-decoration: none;
+}
+
+.introducao .btn{
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 20px 30px;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+}
+.list-card{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}
+.list-card li{
+    background-color: #ffffff;
+    padding: 20px;
+}
+.list-card img{
+   width: 100%;
+   display: block;
+   object-fit: cover;
+}
+.list-card h2{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #111111;
+    text-transform: uppercase;
+}
+
+.footer{
+    text-align: center;
+    background-color: #111111;
+    color: #af7f68;
+    font-family: "Poppins", sans-serif;
+    padding: 50px;
+}
+@media (max-width: 1000px){
+    .list-card{
+        flex-wrap: wrap;
+    }
+    .list-card h2{
+        padding: 10px;
+    }
+}
+@media (max-width: 700px){
+    .introducao h1{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 600px){
+    .introducao{
+        padding: 10px;
+    }
+    .introducao h1{
+        font-size: 3rem;
+        padding-top: 50px;
+    }
+    .introducao p,a{
+        font-size: 0.875rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .introducao .btn{
+        padding: 10px 10px;
+        font-size: 0.875rem;
+    }
+}
