@@ -92,7 +92,7 @@
         padding: 10px;
     }
     .introducao h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         padding-top: 50px;
     }
     .introducao p,a{
@@ -103,5 +103,8 @@
     .introducao .btn{
         padding: 10px 10px;
         font-size: 0.875rem;
+    }
+    .list-card h2{
+        line-height: 1;
     }
 }
